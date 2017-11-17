@@ -1,0 +1,27 @@
+{
+    "name": "madurmanov/yii2-twitter-api-driver",
+    "description": "Module that enables send request to twitter api for Yii Framework 2.0.",
+    "keywords": [
+        "yii2",
+        "extension",
+        "module",
+        "api",
+        "social",
+        "twitter"
+    ],
+    "type": "yii2-extension",
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "https://github.com/madurmanov/yii2-twitter-api-driver",
+    "authors": [
+        {
+            "name": "Mikhail Durmanov",
+            "email": "madurmanov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "madurmanov\\TwitterApiDriver\\": ""
+        }
+    }
+}
