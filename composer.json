@@ -19,6 +19,9 @@
             "email": "madurmanov@gmail.com"
         }
     ],
+    "require": {
+        "abraham/twitteroauth": "*"
+    },
     "autoload": {
         "psr-4": {
             "madurmanov\\TwitterApiDriver\\": ""
