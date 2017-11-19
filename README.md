@@ -6,6 +6,12 @@ Module that enables send request to twitter api for Yii Framework 2.0.
 composer require madurmanov/yii2-twitter-api-driver "@dev"
 ```
 
+## AccessToken
+- Create app [https://apps.twitter.com](https://apps.twitter.com)
+- Set access level to 'Read and write'
+- Go to 'Keys and Access Tokens' tab and generate Access Token
+- Use generated access token and consumer information for configurate
+
 ## Configuration
 ```
 'modules' => [
