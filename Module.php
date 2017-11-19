@@ -8,8 +8,8 @@ class Module extends BaseModule
 {
   public $consumerKey = '';
   public $consumerSecret = '';
-  public $oauthToken = '';
-  public $oauthSecret = '';
+  public $accessToken = '';
+  public $accessTokenSecret = '';
 
   protected $api = null;
 
@@ -18,8 +18,8 @@ class Module extends BaseModule
     $this->api = new \Abraham\TwitterOAuth\TwitterOAuth(
       $this->consumerKey,
       $this->consumerSecret,
-      $this->oauthToken,
-      $this->oauthSecret
+      $this->accessToken,
+      $this->accessTokenSecret
     );
   }
 

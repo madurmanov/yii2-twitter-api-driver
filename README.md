@@ -19,8 +19,8 @@ composer require madurmanov/yii2-twitter-api-driver "@dev"
     'class' => 'madurmanov\TwitterApiDriver\Module',
     'consumerKey' => '',
     'consumerSecret' => '',
-    'oauthToken' => '',
-    'oauthSecret' => ''
+    'accessToken' => '',
+    'accessTokenSecret' => ''
   ]
 ]
 ```
